@@ -1,0 +1,180 @@
+//PACOTE 1
+{
+	"codigo": "288355555123888",
+	"reg_origem": "288",
+	"reg_destino": "355",
+	"cod_loggi": "555",
+	"cod_vendedor": "123",
+	"tipo_produto": "888"
+}
+//PACOTE 2
+{
+	"codigo": "335333555584333",
+	"reg_origem": "335",
+	"reg_destino": "333",
+	"cod_loggi": "555",
+	"cod_vendedor": "584",
+	"tipo_produto": "333"
+}
+//PACOTE 3
+{
+	"codigo": "223343555124001",
+	"reg_origem": "223",
+	"reg_destino": "343",
+	"cod_loggi": "555",
+	"cod_vendedor": "124",
+	"tipo_produto": "001"
+}
+//PACOTE 4
+{
+	"codigo": "002111555874555",
+	"reg_origem": "002",
+	"reg_destino": "111",
+	"cod_loggi": "555",
+	"cod_vendedor": "874",
+	"tipo_produto": "555"
+}
+//PACOTE 5
+{
+	"codigo": "111188555654777",
+	"reg_origem": "111",
+	"reg_destino": "188",
+	"cod_loggi": "555",
+	"cod_vendedor": "654",
+	"tipo_produto": "777"
+}
+//PACOTE 6
+{
+	"codigo": "111333555123333",
+	"reg_origem": "111",
+	"reg_destino": "333",
+	"cod_loggi": "555",
+	"cod_vendedor": "123",
+	"tipo_produto": "333"
+}
+//PACOTE 7
+{
+	"codigo": "432055555123888",
+	"reg_origem": "432",
+	"reg_destino": "055",
+	"cod_loggi": "555",
+	"cod_vendedor": "123",
+	"tipo_produto": "888"
+}
+//PACOTE 8
+{
+	"codigo": "079333555584333",
+	"reg_origem": "079",
+	"reg_destino": "333",
+	"cod_loggi": "555",
+	"cod_vendedor": "584",
+	"tipo_produto": "333"
+}
+//PACOTE 9
+{
+	"codigo": "155333555124001",
+	"reg_origem": "155",
+	"reg_destino": "333",
+	"cod_loggi": "555",
+	"cod_vendedor": "124",
+	"tipo_produto": "001"
+}
+//PACOTE 10
+{
+	"codigo": "333188555584333",
+	"reg_origem": "333",
+	"reg_destino": "188",
+	"cod_loggi": "555",
+	"cod_vendedor": "584",
+	"tipo_produto": "333"
+}
+//PACOTE 11
+{
+	"codigo": "555288555123001",
+	"reg_origem": "555",
+	"reg_destino": "288",
+	"cod_loggi": "555",
+	"cod_vendedor": "123",
+	"tipo_produto": "001"
+}
+//PACOTE 12
+{
+	"codigo": "111388555123555",
+	"reg_origem": "111",
+	"reg_destino": "388",
+	"cod_loggi": "555",
+	"cod_vendedor": "123",
+	"tipo_produto": "555"
+}
+//PACOTE 13
+{
+	"codigo": "288000555367333",
+	"reg_origem": "288",
+	"reg_destino": "000",
+	"cod_loggi": "555",
+	"cod_vendedor": "367",
+	"tipo_produto": "333"
+}
+//PACOTE 14
+{
+	"codigo": "066311555874001",
+	"reg_origem": "066",
+	"reg_destino": "311",
+	"cod_loggi": "555",
+	"cod_vendedor": "874",
+	"tipo_produto": "001"
+}
+//PACOTE 15
+{
+	"codigo": "110333555123555",
+	"reg_origem": "110",
+	"reg_destino": "333",
+	"cod_loggi": "555",
+	"cod_vendedor": "123",
+	"tipo_produto": "555"
+}
+//PACOTE 16
+{
+	"codigo": "333488555584333",
+	"reg_origem": "333",
+	"reg_destino": "488",
+	"cod_loggi": "555",
+	"cod_vendedor": "584",
+	"tipo_produto": "333"
+}
+//PACOTE 17
+{
+	"codigo": "455448555123001",
+	"reg_origem": "455",
+	"reg_destino": "448",
+	"cod_loggi": "555",
+	"cod_vendedor": "123",
+	"tipo_produto": "001"
+}
+//PACOTE 18
+{
+	"codigo": "022388555123555",
+	"reg_origem": "022",
+	"reg_destino": "388",
+	"cod_loggi": "555",
+	"cod_vendedor": "123",
+	"tipo_produto": "555"
+}
+//PACOTE 19
+{
+	"codigo": "432044555845333",
+	"reg_origem": "432",
+	"reg_destino": "044",
+	"cod_loggi": "555",
+	"cod_vendedor": "845",
+	"tipo_produto": "333"
+}
+//PACOTE 20
+{
+	"codigo": "034311555874001",
+	"reg_origem": "034",
+	"reg_destino": "311",
+	"cod_loggi": "555",
+	"cod_vendedor": "874",
+	"tipo_produto": "001"
+}
