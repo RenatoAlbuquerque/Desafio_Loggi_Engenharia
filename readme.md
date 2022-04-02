@@ -80,11 +80,11 @@ Projeto Backend e Banco de dados.
 
 <img alt="bcdedados" title="bcdedados" src="./Img/Banco de Dados.png" width="700px">
 
-#### Fica a critério do usuário o preenchimento do banco de dados manual utilizando o insomnia e os arquivos disponiveis em [dadosDoBc](https://github.com/RenatoAlbuquerque/Desafio_Loggi_Engenharia/blob/main/dadosDoBc.json)
+#### Fica a critério do usuário o preenchimento do banco de dados manual utilizando o insomnia e os arquivos disponiveis em [dadosDoBc]()
 
 ## Exemplo de Request - Post
 
-### O arquivo de testes do insominia pode ser encontrado em [Testes Insomnia](https://github.com/RenatoAlbuquerque/Desafio_Loggi_Engenharia/blob/main/Insomnia_Teste_Loggi)
+### O arquivo de testes do insominia pode ser encontrado em [Testes Insomnia]()
 
 <img alt="insomniaexemplo" title="insomniaexemplo" src="./Img/insomnia_exemplo_request.png" width="700px">
 
@@ -131,6 +131,32 @@ pacotes (soma região);
  <img alt="questao5" title="questao1" src="./Img/questao5.png" width="500px">
 
 - R: Assim como na questão 4, aqui utilizaremos o cod_vendedor como parâmetro de rota para pegar todas os códigos relacionados a esse vendedor, posteriormente passaremos o atributo isvalid como true, para retornar apenas os códigos válidos.
+
+### 6. Gerar o relatório/lista de pacotes por destino e por tipo (Considere apenas pacotes válidos);
+
+ <img alt="questao6" title="questao6" src="./Img/questao6.png" width="500px">
+
+- R: A mesma lógica vale tanto para listagem dos pacotes por destino quanto por tipo de produto, filtrando os resultados com o reg_destino e por tipo_produto nos parâmetros da rota, ambos com o atributo isvalid com valor true.
+
+### 7. Se o transporte dos pacotes para o Norte passa pela Região Centro-Oeste, quais são os pacotes que devem ser despachados no mesmo caminhão?
+
+ <img alt="questao7" title="questao7" src="./Img/questao7.png" width="500px">
+
+- R: No mesmo caminhão devem ser despachados os pacotes que tem como origem de destino tanto a Região Norte como a Região Centro-Oeste, no caso dos códigos de envio disponiveis, irão apenas envios para o Norte, já que o código de envio para a região Centro-Oeste encontrasse inválido.
+
+### 8. Se todos os pacotes fossem uma fila qual seria a ordem de carga para o Norte no caminhão para descarregar os pacotes da Região Centro Oeste primeiro;
+
+- R: Primeiro seriam carregados os pacotes para a Região Norte e posteriormente os pacotes para Região Centro-Oeste.
+
+### 9. No item acima considerar que as jóias fossem sempre as primeiras a serem descarregadas
+
+- R: Neste caso primeiro seria carregado primeiro os Eletrônicos que iriam para região Norte, depois as Jóias que vão para a região Norte e por último as Jóias que iriam para a região Centro-Oeste, porém como encontra-se com o código inválido o despache deste pacote não seria possivel.
+
+### 10. Listar os pacotes inválidos.
+
+ <img alt="questao10" title="questao10" src="./Img/questao10.png" width="500px">
+
+- R: Para listar os pacotes inválidos filtramos pelo atributo isvalid com o valor false, recebido assim que o pacote é cadastrado no sistema, já no atributo invalidObs podemos ver o motivo por qual o pacote foi taxado com inválido.
 
 ---
 
@@ -179,7 +205,7 @@ $ npm start
 - **[Path](https://www.npmjs.com/package/path)**
 - **[Pg](https://www.npmjs.com/package/pg)**
 
-> Veja o arquivo [package.json](https://github.com/RenatoAlbuquerque/Desafio_Loggi_Engenharia/blob/main/package.json)
+> Veja o arquivo [package.json](https://github.com/RenatoAlbuquerque/Aplicacao_shortURL/blob/main/BackEnd/package.json)
 
 **Utilitários**
 
