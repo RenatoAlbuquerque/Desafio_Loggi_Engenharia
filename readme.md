@@ -80,11 +80,11 @@ Projeto Backend e Banco de dados.
 
 <img alt="bcdedados" title="bcdedados" src="./Img/Banco de Dados.png" width="700px">
 
-#### Fica a critério do usuário o preenchimento do banco de dados manual utilizando o insomnia e os arquivos disponiveis em [dadosDoBc]()
+#### Fica a critério do usuário o preenchimento do banco de dados manual utilizando o insomnia e os arquivos disponiveis em [dadosDoBc](https://github.com/RenatoAlbuquerque/Desafio_Loggi_Engenharia/blob/main/dadosDoBc.json)
 
 ## Exemplo de Request - Post
 
-### O arquivo de testes do insominia pode ser encontrado em [Testes Insomnia]()
+### O arquivo de testes do insominia pode ser encontrado em [Testes Insomnia](https://github.com/RenatoAlbuquerque/Desafio_Loggi_Engenharia/blob/main/Insomnia_Teste_Loggi)
 
 <img alt="insomniaexemplo" title="insomniaexemplo" src="./Img/insomnia_exemplo_request.png" width="700px">
 
@@ -179,7 +179,7 @@ $ npm start
 - **[Path](https://www.npmjs.com/package/path)**
 - **[Pg](https://www.npmjs.com/package/pg)**
 
-> Veja o arquivo [package.json](https://github.com/RenatoAlbuquerque/Aplicacao_shortURL/blob/main/BackEnd/package.json)
+> Veja o arquivo [package.json](https://github.com/RenatoAlbuquerque/Desafio_Loggi_Engenharia/blob/main/package.json)
 
 **Utilitários**
 
