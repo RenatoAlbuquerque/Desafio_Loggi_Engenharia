@@ -221,9 +221,9 @@ class OrdersController {
       const pedidos = await database.Orders.findAll({
         where: {
           reg_destino: {
-            [Op.or]: ["Norte", "Centro-Oeste"],
-            isvalid: true,
+            [Op.or]: ["Norte", "Centro-oeste"],
           },
+          isvalid: true,
         },
       });
 
